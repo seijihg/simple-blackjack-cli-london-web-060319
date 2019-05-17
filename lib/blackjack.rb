@@ -46,7 +46,6 @@ def hit?(ir)
   end
 end
 
-puts hit?(7)
 
 #####################################################
 # get every test to pass before coding runner below #
