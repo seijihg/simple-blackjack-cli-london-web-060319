@@ -52,5 +52,9 @@ end
 #####################################################
 
 def runner
-  # code runner here
+  welcome
+  player = initial_round
+  until player < 21
+    hit?(player)
+  end
 end
