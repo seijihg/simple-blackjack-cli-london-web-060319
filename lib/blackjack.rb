@@ -37,7 +37,7 @@ def hit?(ir)
     prompt_user
     input = get_user_input
     if input == "h"
-      return ir + deal_card
+      return ir += deal_card
     elsif input == "s"
       return ir
     else
